@@ -36,8 +36,8 @@ eureka:
   instance:
     instance-id: microservice-config-product-client
     prefer-ip-address: true
-    lease-renewal-interval-in-seconds: 2 # 设置心跳的时间间隔（默认是30秒）
-    lease-expiration-duration-in-seconds: 5  # 如果现在超过了5秒的间隔（默认是90秒）
+    lease-renewal-interval-in-seconds: 30 # 设置心跳的时间间隔（默认是30秒）
+    lease-expiration-duration-in-seconds: 90  # 如果现在超过了5秒的间隔（默认是90秒）
 
 info:
   app.name: microservice-provider-product
@@ -86,8 +86,8 @@ eureka:
   instance:
     instance-id: microservice-config-product-client
     prefer-ip-address: true
-    lease-renewal-interval-in-seconds: 2 # 设置心跳的时间间隔（默认是30秒）
-    lease-expiration-duration-in-seconds: 5  # 如果现在超过了5秒的间隔（默认是90秒）
+    lease-renewal-interval-in-seconds: 30 # 设置心跳的时间间隔（默认是30秒）
+    lease-expiration-duration-in-seconds: 90  # 如果现在超过了5秒的间隔（默认是90秒）
 
 info:
   app.name: microservice-config-product-client
