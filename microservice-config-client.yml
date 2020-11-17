@@ -9,7 +9,7 @@ server:
 spring:
   profiles: dev
   application:
-      name: microconfig-test-client1515151515
+      name: microconfig-test-client
   cloud:
    stream:
      kafka:
@@ -22,7 +22,7 @@ eureka:
     defaultZone: http://admin:a@localhost:7301/eureka
     
 info:
-  app.name: microservice-config-client-dev
+  app.name: microservice-config-client-dev212321321231
   company.name: yc
 ---
 server:
