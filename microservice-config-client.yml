@@ -28,3 +28,8 @@ eureka:
  client:
   service-url:
     defaultZone: http://admin:a@localhost:7301/eureka
+    
+    
+info:
+  app.name: microservice-config-client-beta
+  company.name: hyycinfo
